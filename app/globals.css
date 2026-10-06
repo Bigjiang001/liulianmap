@@ -2,6 +2,7 @@
 @import 'tw-animate-css';
 @import '../vendor/shadcn-tailwind-4.13.0.css';
 @import 'leaflet/dist/leaflet.css';
+@source not "../docs";
 @custom-variant dark (&:is(.dark *));
 :root{--background:#fffefb;--foreground:#193e32;--card:#fff;--card-foreground:#193e32;--popover:#fff;--popover-foreground:#193e32;--primary:#f8c934;--primary-foreground:#193e32;--secondary:#f0f4ee;--secondary-foreground:#193e32;--muted:#f3f4ef;--muted-foreground:#6e7b72;--accent:#f9f1d2;--accent-foreground:#193e32;--destructive:#bf4436;--border:#e4e8df;--input:#d8ded4;--ring:#ccaa2c;--radius:.8rem;--sidebar:#fff;--sidebar-foreground:#193e32;--sidebar-primary:#174c3c;--sidebar-primary-foreground:#fff;--sidebar-accent:#faf2d6;--sidebar-accent-foreground:#193e32;--sidebar-border:#e4e8df;--sidebar-ring:#ccaa2c}
 @theme inline{--color-background:var(--background);--color-foreground:var(--foreground);--color-card:var(--card);--color-card-foreground:var(--card-foreground);--color-popover:var(--popover);--color-popover-foreground:var(--popover-foreground);--color-primary:var(--primary);--color-primary-foreground:var(--primary-foreground);--color-secondary:var(--secondary);--color-secondary-foreground:var(--secondary-foreground);--color-muted:var(--muted);--color-muted-foreground:var(--muted-foreground);--color-accent:var(--accent);--color-accent-foreground:var(--accent-foreground);--color-destructive:var(--destructive);--color-border:var(--border);--color-input:var(--input);--color-ring:var(--ring)}

@@ -10,7 +10,7 @@ export const shopVideos=[
  {placeId:'naiyut',id:'22b9G5esW_U',title:'Nai Yut 榴莲店现场报道',author:'TNN',date:'2019-05-17',kind:'媒体报道'},
  {placeId:'goldfinger',id:'j67SzDYIcOw',title:'唐人街 Gold Finger 店铺与榴莲',author:'Durian Yaowaraj',date:'2013-01-01',kind:'商家公开视频'}
 ];
-export const marketPhoto={src:'/ortorkor-susan-slater.jpg',author:'Susan Slater',date:'2009-12-21',source:'https://commons.wikimedia.org/wiki/File:Durian_(Durio_zibethinus).jpg',license:'https://creativecommons.org/licenses/by-sa/4.0/'};
+export const marketPhoto={src:'/liulianmap/ortorkor-susan-slater.jpg',author:'Susan Slater',date:'2009-12-21',source:'https://commons.wikimedia.org/wiki/File:Durian_(Durio_zibethinus).jpg',license:'https://creativecommons.org/licenses/by-sa/4.0/'};
 export const tastingGuides=[
  {title:'多品种，慢慢试',subtitle:'想找到自己的口感偏好',icon:'01',placeIds:['ortorkor','tatoy'],reason:'市场与 Ta-Toy 的公开探店记录提到多种榴莲。先问当日品种和能否试吃，再决定。'},
  {title:'唐人街，边走边吃',subtitle:'按街区找鲜果与糯米饭',icon:'02',placeIds:['goldfinger','jaepha'],reason:'两家都收录在 Yaowarat 街区，分别有公开视频或购买者记录；具体摊位请核对招牌。'},
