@@ -1,8 +1,14 @@
-# 榴莲地图 · 曼谷 V2
+# 榴莲地图 · 曼谷 V3
 
 面向 iPhone 的中文 PWA。探索地图、区域/品种/口感筛选、导航、收藏、购买体验、照片、评论点赞、口碑榜、地点补充与管理员审核。
 
-公开网址：https://durian-map-bangkok.bigjiang001.chatgpt.site/
+完整公开应用：https://durian-map-bangkok.bigjiang001.chatgpt.site/
+
+GitHub Pages 公开入口：https://bigjiang001.github.io/liulianmap/ （打开后进入完整应用）
+
+源码仓库：https://github.com/Bigjiang001/liulianmap
+
+GitHub Pages 发布源为 `main` 分支 `/docs`，静态入口自动打开完整应用。地图、评论、照片上传继续由 Sites 的 Workers / D1 / R2 与认证网关运行。GitHub 上修改源码不会自动更新完整应用；需经过构建与 Sites 的版本发布流程。
 
 ## V2
 
