@@ -1,4 +1,4 @@
-# 榴莲地图 · 曼谷
+# 榴莲地图（茜茜找榴莲）· 曼谷
 
 访问 **https://bigjiang001.github.io/liulianmap/**。GitHub Pages 直接运行网页，无跳转，无需登录 ChatGPT。
 
@@ -7,3 +7,5 @@
 原完整社区后端代码保留在 app/api、db、drizzle，未来接入独立后端时继续使用。静态版本不会请求原 Sites 网站或信任 ChatGPT 请求头。
 
 开发：`npm ci`，`npm run dev:pages`。构建：`npm run build:pages`，产物 docs/。main/docs 为 GitHub Pages 发布源。资料来源见 research/RESEARCH_V3.md。
+
+手机版：上方地图固定，下方店铺列表独立滚动；点击店铺定位并突出地图标记，点击“详情”展开资料。
