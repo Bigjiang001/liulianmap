@@ -40,3 +40,30 @@
  .workspace .locate-button{bottom:109px}.workspace .map-note{max-width:calc(100% - 74px)}
  .scroll-page{min-height:0;overflow-y:auto;overscroll-behavior:contain}
 }
+
+/* Compact mobile browsing: give the map more room and keep details off the map. */
+.mobile-place-toolbar{display:none}
+@media(max-width:767px){
+ .workspace .map-section{flex-basis:50%;height:50%;min-height:0}
+ .workspace .places-panel{padding:3px 12px 0;border-radius:15px 15px 0 0}
+ .workspace .panel-heading{display:none}
+ .mobile-place-toolbar{display:flex;align-items:center;gap:2px;flex-shrink:0;min-height:51px;border-bottom:1px solid #e2e7da}
+ .toolbar-place{flex:1;min-width:0;padding-left:3px}.toolbar-place>strong{display:block;font-size:14px;line-height:1.5;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}.toolbar-place>span{display:block;color:#7b8872;font-size:10px;line-height:1.4}
+ .mobile-place-toolbar button{position:relative;display:flex;align-items:center;justify-content:center;flex-shrink:0;min-width:40px;min-height:44px;border:0;border-radius:9px;background:transparent;color:#31503b;padding:0 8px;font-size:12px}
+ .mobile-place-toolbar .toolbar-details{padding:0 7px;font-weight:650;color:#285932;white-space:nowrap}
+ .mobile-place-toolbar button.active{background:#e8efdc}.search-dot{width:5px;height:5px;background:#b98e1c;border-radius:50%;position:absolute;top:8px;right:8px}
+ .workspace .searchbox,.workspace .filter-row{display:none}
+ .workspace .search-open .searchbox{display:flex;margin-top:8px}
+ .workspace .search-open .filter-row{display:flex;padding:7px 0 0}
+ .workspace .list-heading{height:28px;padding:4px 3px;font-size:11px}
+ .workspace .sort-label{font-size:11px}
+ .workspace .place-card{margin:4px 0;border-radius:11px;box-shadow:none}
+ .workspace .place-main{align-items:center;gap:10px;padding:9px 42px 9px 10px;min-height:64px}
+ .workspace .place-number{width:28px;height:28px;border-radius:8px;font-size:13px}
+ .workspace .place-card h2{font-size:14px;line-height:1.5;margin:0 0 2px;font-weight:650}
+ .workspace .place-info{display:flex;flex-direction:column}
+ .workspace .place-area{order:2;font-size:11px;line-height:1.5}
+ .workspace .thai-name,.workspace .place-rating,.workspace .place-status{display:none}
+ .workspace .save-place{top:50%;transform:translateY(-50%);right:4px;width:36px;height:44px}
+ .workspace .save-place svg{width:16px;height:16px}
+}
