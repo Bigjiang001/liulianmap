@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1791216860067,
+      "tag": "0000_dusty_invaders",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1791220222984,
+      "tag": "0001_ambiguous_mastermind",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1791220655139,
+      "tag": "0002_flowery_molecule_man",
+      "breakpoints": true
+    }
+  ]
+}
